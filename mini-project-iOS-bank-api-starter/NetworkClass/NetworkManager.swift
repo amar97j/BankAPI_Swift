@@ -24,6 +24,7 @@ class NetworkManager {
             }
         }
     }
+<<<<<<< HEAD
     
     
   
@@ -43,6 +44,8 @@ class NetworkManager {
         }
     
     
+=======
+>>>>>>> main
      func deposit(token: String, amountChange: AmountChange, completion: @escaping (Result<Void, Error>) -> Void) {
         let url = baseUrl + "deposit"
         let headers: HTTPHeaders = [.authorization(bearerToken: token)]

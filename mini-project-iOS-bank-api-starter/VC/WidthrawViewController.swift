@@ -1,21 +1,14 @@
-<<<<<<< HEAD
-//
-//  DepositViewController.swift
-//  mini-project-iOS-bank-api-starter
-//
-//  Created by Amora J. F. on 06/03/2024.
-//
 
-import Foundation
-=======
+
 import UIKit
 
-class DepositViewController: UIViewController {
+class WidthrawViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        title = " deposit page "
+        title = " widthraw page "
+
     }
     
 
@@ -30,4 +23,3 @@ class DepositViewController: UIViewController {
     */
 
 }
->>>>>>> main
